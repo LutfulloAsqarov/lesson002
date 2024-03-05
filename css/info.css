@@ -1,5 +1,25 @@
 .info__desc {
+    line-height: 50px;
+    font-size: 40px;
     padding: 30px 20px;
     background: #A9FF2C;
     border-radius:20px;
+}
+
+@media (max-width: 900px) {
+    .info__desc {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 700px) {
+    .info__desc{
+        font-size: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .info__desc{
+        font-size: 25px;
+    }
+
 }
